@@ -1,18 +1,21 @@
-import click
+from pathlib import Path
+from typing import Annotated, Optional
+
+import typer
+
+app = typer.Typer()
 
 
-@click.group()
-@click.version_option()
-def cli():
-    "CLI program til at holde styr på en kommende tur"
+@app.command()
+def init(sti: Annotated[Optional[Path], typer.Option()] = "./"):
+    typer.echo("Init called")
 
 
-@cli.command(name="init")
-@click.option(
-    "-m",
-    "--mappe",
-    help="Mappe hvor projektet for den nye tur skal gemmes",
-)
-def first_command(mappe):
-    "Denne commando bruges til at starte et projekt. En passende mappestruktur oprettes"
-    click.echo(f"Følgende mappe valgt til tur: {mappe}")
+@app.command()
+def tilføj(emne: Annotated[Optional[Path], typer.Option()] = None):
+    typer.echo("Init called ")
+
+
+@app.command()
+def fjern(emne: Annotated[Optional[Path], typer.Option()] = None):
+    typer.echo("Init called")

@@ -25,7 +25,7 @@ Issues = "https://github.com/rasmusravn/turplan/issues"
 CI = "https://github.com/rasmusravn/turplan/actions"
 
 [project.scripts]
-turplan = "turplan.cli:cli"
+turplan = "turplan.cli:app"
 
 [project.optional-dependencies]
 test = ["pytest"]
