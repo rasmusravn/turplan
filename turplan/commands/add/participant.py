@@ -7,7 +7,7 @@ from pydantic import ValidationError
 from turplan.models.models import ParticipantModel
 
 
-def tilfoej_deltager(
+def add_participant(
     name: str = typer.Option(..., help="Navnet på deltageren"),
     email: str = typer.Option(..., help="Email-adressen på deltageren"),
     contacts: Optional[List[str]] = typer.Option(None, help="Kontaktpersoner"),

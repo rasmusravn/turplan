@@ -11,6 +11,7 @@ classifiers = [
 ]
 dependencies = [
     "click",
+    "pydantic>=2.10.4",
     "typer>=0.15.1",
 ]
 
