@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Juletur 2025",
+        "start_time": "2025-11-04 16:00",
+        "end_time": "2025-11-06 13:00",
+        "description": "Yggdrasils \u00c5rlige juletur",
+        "organizer": "Hugin",
+        "max_participants": 60,
+        "participants": [
+            {
+                "name": "Rasmus",
+                "email": "rasmusravna@gmail.com",
+                "start_time": "2025-11-04 16:00",
+                "end_time": "2025-11-06 13:00",
+                "contacts": [
+                    "ditte",
+                    " dittesr@hotmail.com"
+                ],
+                "is_leader": true,
+                "responsibilities": [
+                    "arrang\u00f8r"
+                ]
+            },
+            {
+                "name": "magnus",
+                "email": "magnusmunas@gmail.com",
+                "start_time": "2025-11-04 16:00",
+                "end_time": "2025-11-06 13:00",
+                "contacts": [
+                    "sara"
+                ],
+                "allergies": "ingen",
+                "is_leader": true,
+                "responsibilities": [
+                    "sjov"
+                ]
+            }
+        ],
+        "activities": [],
+        "locations": []
+    }
+]
